@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  padding: 22px;
+}
+
+.description {
+  background-color: lightcoral;
+  height: 50vh;
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    flex-direction: row;
+  }
+  .login {
+    order: 2;
+    width: 50vw;
+    height: 100vh;
+  }
+  .description {
+    width: 50vw;
+    height: 100vh;
+  }
+}
+
+.login__icon img {
+  width: 4rem;
+}
+
+.login__title {
+  font-size: calc(1.5rem + 2vw);
+  font-weight: bold;
+}
