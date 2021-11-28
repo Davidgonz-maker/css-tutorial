@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin: 7px;
+}
+.hobbies {
+  display: flex;
+  flex-direction: column;
+}
+fieldset {
+  margin-block: 5px;
+}
