@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%;
   font-family: "Outfit", sans-serif;
+  text-align: 1.5;
 }
 
 main {
@@ -22,7 +23,9 @@ main {
 }
 
 .description {
-  background-color: lightcoral;
+  background-image: url("./assets/bg-twitter.jpg");
+  background-repeat: no-repeat;
+  bac
   height: 50vh;
 }
 
@@ -41,6 +44,11 @@ main {
   }
 }
 
+.login__main {
+  padding: 14px;
+  max-width: 310px;
+}
+
 .login__icon img {
   width: 4rem;
 }
@@ -48,4 +56,30 @@ main {
 .login__title {
   font-size: calc(1.5rem + 2vw);
   font-weight: bold;
+}
+
+.login__button {
+  margin-block-start: 5rem;
+}
+
+.login__button button {
+  display: block;
+  border-radius: 16px;
+  min-width: 300px;
+  height: 3.3rem;
+  margin-block: 10px;
+  margin-inline: auto;
+  font-weight: 600;
+}
+
+.login__button--signup {
+  background-color: #39a2f3;
+  color: white;
+  border: none;
+}
+
+.login__button--login {
+  background-color: transparent;
+  border: 2px solid #39a2f3;
+  color: #39a2f3;
 }
