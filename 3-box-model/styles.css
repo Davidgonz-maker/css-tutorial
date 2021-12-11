@@ -25,7 +25,8 @@ nav {
 
 section {
   border: 2px solid red;
-  margin-inline-start: 200px;
+  left: 200px;
+  position: relative;
 }
 
 footer {
