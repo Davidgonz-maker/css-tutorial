@@ -5,7 +5,7 @@
   gap: 10px;
 }
 
-.grid > div {
+.item {
   background-color: cadetblue;
   border-radius: 14px;
   padding: 20px;
