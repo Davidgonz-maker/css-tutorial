@@ -119,11 +119,7 @@ main {
   height: 7rem;
 }
 
-.footer__buttons .button--signup {
-  width: 150px;
-  margin-inline: 15px;
-}
-
+.footer__buttons .button--signup,
 .footer__buttons .button--login {
   width: 150px;
   margin-inline: 15px;
