@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin: 7px;
+}
+.hobbies {
+  display: flex;
+  flex-direction: column;
+}
+fieldset {
+  margin-block: 5px;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: green;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}

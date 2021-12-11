@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Html Form</title>
+  </head>
+  <body>
+    <header><h1>Simple Form</h1></header>
+    <main>
+      <form>
+        <label for="name"
+          >First Name <br />
+          <input type="text" name="first-name" id="fn" required />
+        </label>
+        <label for="lastname">
+          Last Name <br />
+          <input type="text" name="lastname" required
+        /></label>
+        <label for="email">
+          Email <br />
+          <input type="email" name="email" required
+        /></label>
+        <label for="dateOfBirth">
+          Date of Birth <br />
+          <input type="date" name="date" required
+        /></label>
+
+        <label for="gender">
+          Genero <br />
+          <select name="gender">
+            <option value="default">Gender</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+          </select>
+        </label>
+
+        <fieldset>
+          <legend>Selecciona tu nivel socio economico</legend>
+          <input type="radio" name="estrato" required />
+          <label for="estrato1"> Estrato 1 </label>
+          <input type="radio" name="" id="estrato2" required />
+          <label for="estrato2"> Estrato 2</label>
+          <input type="radio" name="" id="estrato3" required />
+          <label for="estrato3"> Estrato 3</label>
+          <input type="radio" name="" id="estrato4" required />
+          <label for="estrato4"> Estrato 4</label>
+          <input type="radio" name="" id="estrato5" required />
+          <label for="estrato5"> Estrato 5</label>
+        </fieldset>
+        <fieldset class="hobbies">
+          <legend>Selecciona tu hobby</legend>
+          <label for="hobby1">
+            <input type="checkbox" name="hobby1" id="hobby1" required />
+            Musica</label
+          >
+          <label for="hobby2"
+            ><input type="checkbox" name="hobby2" id="hobby2" required /> Video
+            Juegos</label
+          >
+          <label for="hobby3"
+            ><input type="checkbox" name="hobby3" id="hobby3" required />
+            Cocina</label
+          >
+          <label for="hobby4"
+            ><input type="checkbox" name="hobby4" id="hobby4" required />
+            Deportes</label
+          >
+        </fieldset>
+        <fieldset>
+          <input type="file" name="searchFile" id="searchFile" required />
+        </fieldset>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
