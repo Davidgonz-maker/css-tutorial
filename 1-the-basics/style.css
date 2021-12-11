@@ -9,7 +9,7 @@
   font-weight: 600;
   color: rgb(0, 65, 73);
 }
-form {
+.form {
   display: flex;
   flex-direction: column;
 }
